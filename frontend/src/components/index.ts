@@ -1,4 +1,5 @@
 // Layout components
+export { AppLayout } from './layout/app-layout'
 export { AppSidebar } from './layout/app-sidebar'
 
 // Navigation components
@@ -12,3 +13,6 @@ export { DashboardContent } from './dashboard/dashboard-content'
 
 // Event Calendar components
 export * from './event-calendar'
+
+// Animais components
+export { default as AnimalDetails } from './animais/animal-details'
